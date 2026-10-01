@@ -1,0 +1,17 @@
+.git
+.gitignore
+.env
+.env.*
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+.ruff_cache
+storage
+backend/storage
+frontend/.dart_tool
+frontend/build
+frontend/.flutter-plugins
+CUAD_v1
