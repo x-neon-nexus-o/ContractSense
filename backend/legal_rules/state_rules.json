@@ -1,0 +1,43 @@
+{
+  "ruleset_id": "contractsense-india-state-review",
+  "ruleset_version": "0.1.0",
+  "jurisdiction": "India - limited state-specific review prompts; not a complete state-law database",
+  "last_reviewed": "2026-10-01",
+  "notice": "A state match selects a source-review prompt only. It does not determine territorial scope, legal applicability, duty, registration, or compliance.",
+  "rules": [
+    {
+      "rule_id": "MH_STAMP_DUTY_SOURCE_VERIFICATION",
+      "state": "Maharashtra",
+      "law": "Maharashtra Stamp Act, 1958 and current Maharashtra schedule",
+      "provision": "Verify instrument classification and the current applicable schedule entry",
+      "category": "stamp_duty",
+      "severity": "low",
+      "message": "Maharashtra was selected as the execution/performance state. Verify the instrument classification, relevant facts, and current Maharashtra schedule with an authoritative source. This prototype does not calculate stamp duty or decide whether registration is required.",
+      "source_url": "https://www.indiacode.nic.in/bitstream/123456789/22026/1/the_maharashtra_stamp_act%2C_1958.pdf",
+      "source_urls": [
+        "https://www.indiacode.nic.in/bitstream/123456789/22026/1/the_maharashtra_stamp_act%2C_1958.pdf",
+        "https://igrmaharashtra.gov.in/Home/schedules"
+      ],
+      "source_title": "Maharashtra Stamp Act, 1958; Maharashtra Registration & Stamps schedules",
+      "source_type": "official_state_statute_and_schedule_index",
+      "source_checked_on": "2026-10-01",
+      "version": "0.1.0",
+      "always_review": true
+    },
+    {
+      "rule_id": "MH_EMPLOYMENT_SCOPE_SOURCE_REVIEW",
+      "state": "Maharashtra",
+      "law": "Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017 and applicable rules",
+      "provision": "Check current Act/rules and whether the establishment and facts fall within scope",
+      "category": "employment",
+      "severity": "low",
+      "message": "An employment contract and Maharashtra state were selected. Review the current Act and rules for applicability to the establishment and facts. This prototype does not determine coverage or compliance.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/19710?view_type=browse&sam_handle=123456789%2F2517",
+      "source_title": "Maharashtra Shops and Establishments (Regulation of Employment and Conditions of Service) Act, 2017",
+      "source_type": "official_state_statute",
+      "source_checked_on": "2026-10-01",
+      "version": "0.1.0",
+      "applies_to_contract_types": ["employment"]
+    }
+  ]
+}
